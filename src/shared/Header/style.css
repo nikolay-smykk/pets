@@ -1,0 +1,16 @@
+.header-container{
+    display: grid;
+grid-template-columns: 4fr 6fr 3fr;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

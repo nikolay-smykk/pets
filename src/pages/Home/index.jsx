@@ -1,3 +1,13 @@
+import { Header } from '../../shared/Header'
+import { Footer } from '../../shared/Footer'
+import { Content } from './Content'
+
 export const Home = () => {
-    return <h1>Home</h1>
+    return (
+        <>
+            <Header />
+            <Content />
+            <Footer />
+        </>
+    )
 }

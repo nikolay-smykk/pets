@@ -1,9 +1,18 @@
+import { Link } from 'react-router-dom'
+import { HeaderRight } from './HeaderRight'
+import { HeaderCenter } from './HeaderCenter'
+import { HeaderLeft } from './HeaderLeft'
+
 import './style.css'
 
 export const Header = () => {
     return (
         <header>
-            <h1>MINIMALIZM-STUDIO</h1>
+            <div className="flex header-container">
+                <HeaderLeft />
+                <HeaderCenter />
+                <HeaderRight />
+            </div>
         </header>
     )
 }
