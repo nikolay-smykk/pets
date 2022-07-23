@@ -7,10 +7,17 @@ export const postsApi = createApi({
         getPosts: builder.query({
             query: () => 'posts',
         }),
+        addPost: builder.mutation({
+            mutation: (body) => ({
+                url: 'posts',
+                method: 'POST',
+                body,
+            }),
+        }),
     }),
 })
 
-export const { useGetPostsQuery } = postsApi
+export const { useGetPostsQuery, useAddPostMutation } = postsApi
 
 // export const pokemonApi = createApi({
 //     reducerPath: 'pokemonApi',
