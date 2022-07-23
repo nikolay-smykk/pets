@@ -1,7 +1,14 @@
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
-export const Content = () => {
+/**
+ * Represents a book.
+ * @constructor
+ * @param {string} title
+ * @returns
+ */
+
+export const Content = ({ title, author }) => {
     const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     return (
         <div className="content-container">
