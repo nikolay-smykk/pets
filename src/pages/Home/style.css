@@ -1,0 +1,8 @@
+.content-container{
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem;
+    margin-top: 2rem;
+}
