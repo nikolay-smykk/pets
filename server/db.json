@@ -1,18 +1,173 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" },
-      { "id": 2, "title": "json-server", "author": "typicode" },
-      { "id": 3, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 2 },
-      { "id": 3, "body": "some comment", "postId": 3 }
-    ],
-    "profile": { "name": "typicode" },
-    "users": [
-      { "id": 1, "name": "typicode" },
-      { "id": 2, "name": "typicode" },
-      { "id": 3, "name": "typicode" }
-    ]
-  }
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "description": "description",
+      "price": "213123",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "description": "description",
+      "price": "123",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "description": "description",
+      "price": "2131245",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "description": "description",
+      "price": "123123",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 5,
+      "title": "json-server",
+      "description": "description",
+      "price": "123123",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 6,
+      "title": "json-server",
+      "description": "description",
+      "price": "1231111",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 7,
+      "title": "json-server",
+      "description": "description",
+      "price": "345345",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 8,
+      "title": "json-server",
+      "description": "description",
+      "price": "234",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 9,
+      "title": "json-server",
+      "description": "description",
+      "price": "1231111",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 10,
+      "title": "json-server",
+      "description": "description",
+      "price": "1231111",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 11,
+      "title": "json-server",
+      "description": "description",
+      "price": "1231111",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 12,
+      "title": "json-server",
+      "description": "description",
+      "price": "1231111",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": 13,
+      "title": "json-server",
+      "description": "description",
+      "price": "1231111",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "title": "asdasd",
+      "description": "description",
+      "price": "1231111",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+      "id": 16
+    },
+    {
+      "title": "111",
+      "description": "description",
+      "price": "1231111",
+      "color": "red",
+      "size": "L",
+      "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+      "id": 17
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "body": "some comment",
+      "postId": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "typicode"
+    },
+    {
+      "id": 3,
+      "name": "typicode"
+    }
+  ]
+}
