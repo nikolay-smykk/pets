@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cypress open"
+    "start": "npx cypress open",
+    "dev":"npx cypress run --config-file cypress.config.js"
   },
   "keywords": [],
   "author": "",

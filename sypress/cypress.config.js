@@ -2,8 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://alidi.ru/",
-    ignoreTestFIles: "**/example/*",
+    baseUrl: 'http://alidi.ru',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
